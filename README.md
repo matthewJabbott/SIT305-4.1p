@@ -75,18 +75,31 @@ Project Structure
 Code
 
 SIT305-4.1p/
+
 ├── app/                          # Application module
+
 │   ├── src/
+
 │   │   ├── main/                # Main application code
+
 │   │   │   ├── java/            # Kotlin source files
+
 │   │   │   ├── res/             # Resources (layouts, strings, etc.)
+
 │   │   │   └── AndroidManifest.xml
+
 │   │   └── test/                # Unit tests
+
 │   ├── build.gradle.kts         # App module build configuration
+
 │   └── schemas/                 # Room database schemas
+
 ├── gradle/                       # Gradle wrapper
+
 ├── build.gradle.kts             # Root build configuration
+
 ├── settings.gradle.kts          # Gradle settings
+
 └── README.md                     # This file
 
 Database Schema
